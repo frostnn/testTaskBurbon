@@ -316,7 +316,6 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #eeeeee;
-    text-transform: uppercase;
     &::before {
       content: '';
       position: absolute;
@@ -378,7 +377,7 @@ body {
 .program-block:nth-child(3) {
   .program-block__title {
     &::before {
-      top: -66px;
+      top: -82px;
     }
   }
 }

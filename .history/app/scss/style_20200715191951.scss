@@ -316,12 +316,11 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #eeeeee;
-    text-transform: uppercase;
     &::before {
       content: '';
       position: absolute;
       bottom: 0;
-      top: -29px;
+      top: -24px;
       left: 0;
       margin: auto;
       right: 0;
@@ -372,13 +371,7 @@ body {
   .program-block__title {
     &::before {
       top: -82px;
-    }
-  }
-}
-.program-block:nth-child(3) {
-  .program-block__title {
-    &::before {
-      top: -66px;
+     
     }
   }
 }
