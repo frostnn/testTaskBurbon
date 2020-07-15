@@ -1,0 +1,20 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.header {
+  margin: 0 auto;
+  background-color: darkgray;
+  max-width: 1836px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav__list {
+  display: flex;
+}
+
+
+@import "media";
+
+

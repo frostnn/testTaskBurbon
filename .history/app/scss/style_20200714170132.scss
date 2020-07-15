@@ -1,0 +1,16 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.header {
+  background-color: darkgray;
+  max-width: 1836px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@import "media";
+
+

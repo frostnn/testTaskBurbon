@@ -1,0 +1,29 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.header {
+  margin: 0 auto;
+  background-color: rgb(226, 128, 128);
+  max-width: 1836px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav__list {
+  display: flex;
+  .header-nav__list-item {
+    margin-right: 36px;
+  }
+  .header-nav__list-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+
+@import "media";
+
+
