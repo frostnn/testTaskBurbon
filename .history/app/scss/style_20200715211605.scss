@@ -388,7 +388,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  border-bottom: 1px solid #e5e5e5;
   .equipment-block__list-title,
   .decisions-block__list-title,
   .partners-block__list-title,
@@ -401,20 +400,13 @@ body {
     font-weight: 600;
     margin-bottom: 6px;
   }
-  li {
-    margin-bottom: 4px;
-  }
+
   a {
     color: #334965;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
   }
-  .productions-block__list-title {
-    margin-top: 25px;
-  }
-  .equipment-block__list-title {
-    margin-top: 15px;
-  }
+  
 }
 @import "media";
 

@@ -388,7 +388,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  border-bottom: 1px solid #e5e5e5;
   .equipment-block__list-title,
   .decisions-block__list-title,
   .partners-block__list-title,
@@ -413,7 +412,7 @@ body {
     margin-top: 25px;
   }
   .equipment-block__list-title {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 }
 @import "media";
