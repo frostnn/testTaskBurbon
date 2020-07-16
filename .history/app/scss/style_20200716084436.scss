@@ -2,7 +2,9 @@
 @import "libs";
 @import "fonts";
 @import "global";
-
+body {
+  background-color: darkgrey;
+}
 .header {
   margin: 0 auto;
   max-width: 1486px;

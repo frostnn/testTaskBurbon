@@ -2,14 +2,16 @@
 @import "libs";
 @import "fonts";
 @import "global";
-
+body {
+  background-color: darkgrey;
+}
 .header {
   margin: 0 auto;
   max-width: 1486px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 32px;
+  margin-top: 32px;
   height: 80px;
 }
 .header-logo {
@@ -30,7 +32,7 @@
 .slider {
   max-width: 1486px;
   margin: 0 auto;
-  height: 500px;
+  height: 568px;
 }
 .slider-block__content-img {
   width: 100%;
@@ -45,7 +47,7 @@
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  margin-top: 80px;
+  margin-top: 110px;
     &::before {
     content: '';
     position: absolute;
@@ -71,7 +73,7 @@
 .slider-block__content-text{
   color:  $white;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 60px;
 }
 .btn {
@@ -87,7 +89,7 @@
 
 .slider-arrows__right {
   position: absolute;
-  top: 178px;
+  top: 205px;
   right: 0;
   cursor: pointer;
 }
@@ -95,7 +97,7 @@
 
 .slider-arrows__left {
   position: absolute;
-  top: 178px;
+  top: 205px;
   left: 0;
   cursor: pointer;
 }
@@ -104,11 +106,6 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  /* top: 0; */
-  bottom: 0;
   button{
       border: 2px solid $blue;
       width: 20px;
@@ -417,42 +414,21 @@
   }
   .equipment-block__list-title {
     margin-top: 15px;
-    
-  }
-  .import-block {
-    margin-bottom: 20px;
   }
 }
 .subfooter {
-  margin-top: 20px;
   color: #334965;
   .subfooter-contacts {
-    font-size: 11px;
+    font-size: 10px;
   }
   .subfooter-info{
     font-size: 11px;
   }
-  .subfooter-link { 
-    margin-left: 88px;
+  .subfooter-link {
     font-size: 14px;
     color: $blue;
   }
 }
-.subfooter-contacts__link {
-  color: #334965;
-  cursor: pointer;
-}
-.program-block {
-  margin-bottom: 70px;
-}
-
-.bg-test {
-  background-image: url('../img/VPS.png');
-  background-repeat: no-repeat;
-  background-position: top;
-
-}
-
 @import "media";
 
 

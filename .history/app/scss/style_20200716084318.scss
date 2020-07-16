@@ -2,7 +2,9 @@
 @import "libs";
 @import "fonts";
 @import "global";
-
+body {
+  background-color: darkgrey;
+}
 .header {
   margin: 0 auto;
   max-width: 1486px;
@@ -30,7 +32,7 @@
 .slider {
   max-width: 1486px;
   margin: 0 auto;
-  height: 500px;
+  height: 568px;
 }
 .slider-block__content-img {
   width: 100%;
